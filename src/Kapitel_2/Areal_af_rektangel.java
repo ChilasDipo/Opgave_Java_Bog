@@ -8,7 +8,7 @@ public class Areal_af_rektangel {
         int Linput1 = Integer.parseInt(input.next());
         System.out.print("Input arealet af side 2:  ");
         Scanner input2 = new Scanner(System.in);
-        int Linput2 =  Integer.parseInt(input.next());
+        int Linput2 =  Integer.parseInt(input2.next());
 
         System.out.println("Aralet af rektangel med sider " + Linput1 + " og " + Linput2 + " er " + Beregner(Linput1,Linput2));
         System.out.println("Aralet af rektangel med sider 6 og 12 er  " + Beregner(6,12));
