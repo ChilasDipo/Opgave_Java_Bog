@@ -19,7 +19,7 @@ public class MomsBeregner {
         System.out.println("Momsen er  " + (int) (moms * 100) / 100.0);
     }
     public static double plusDanskMoms(double kob){
-        return  kob * 0.06;
+        return  kob * 0.25;
     }
     public static double plusTyskMoms(double kob){
         return  kob * 0.16;
