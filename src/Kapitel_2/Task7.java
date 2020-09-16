@@ -12,7 +12,7 @@ public class Task7 {
         Scanner input = new Scanner(System.in);
         String mins = input.nextLine();
 
-        double mini = Integer.parseInt(mins);
+        int mini = Integer.parseInt(mins);
         double mind = Double.parseDouble(mins);
 
         double ar = Math.round( (mind / 525960.0) * 100.0 ) / 100.0 ;
