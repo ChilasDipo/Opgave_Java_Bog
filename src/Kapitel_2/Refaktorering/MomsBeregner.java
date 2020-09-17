@@ -1,4 +1,4 @@
-package Kapitel_2;
+package Kapitel_2.Refaktorering;
 import java.util.Scanner;
 
 public class MomsBeregner {
