@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Java_DataType {
+public class Java_temp {
     public static void main(String[] args) {
-        byte fem = 5;
+       /* byte fem = 5;
         short y = 12 ;
         int x = 13;
         long h = 42223432;
@@ -15,7 +15,17 @@ public class Java_DataType {
         System.out.println( y   );
         System.out.println( i );
         System.out.println( u );
+*/
 
+        String color = "lilla";
+
+        if (color == "green") {
+            System.out.println("the car is green");
+        }
+        if (color == "red") {System.out.println("the car is green");
+        }else {
+            System.out.println("it is a random car of a random color");
+        }
 
 
 
