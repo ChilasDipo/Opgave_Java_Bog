@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="lavde if switch opgave">
-      <change afterPath="$PROJECT_DIR$/src/Quickopgaver/Studeredemain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="Studerende opgave tilføjet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Studeredemain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Studeredemain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,7 @@
       <workItem from="1600280742081" duration="51000" />
       <workItem from="1600326616701" duration="5882000" />
       <workItem from="1600418876734" duration="34000" />
-      <workItem from="1601277573520" duration="3111000" />
+      <workItem from="1601277573520" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="Begyndte opgave areal beregning af rektangel">
       <created>1600073724721</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601278034171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Studerende opgave tilføjet">
+      <created>1601281459715</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601281459715</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,13 +256,18 @@
     <MESSAGE value="lavede opgave 7" />
     <MESSAGE value="lavede Refaktering opgaver" />
     <MESSAGE value="lavde if switch opgave" />
-    <option name="LAST_COMMIT_MESSAGE" value="lavde if switch opgave" />
+    <MESSAGE value="Studerende opgave tilføjet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Studerende opgave tilføjet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="185" key="#Notifications" timestamp="1600154623501">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="393" y="185" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1600154623501" />
+    <state x="930" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1601283163000">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="930" y="218" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601283163000" />
     <state x="668" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600280649799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -272,26 +284,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601281092947">
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601283297498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281092947" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601281092947">
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601283297498" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601283297498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281092947" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601281092947">
+    <state width="1340" height="266" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601283297498" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601283297497">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281092947" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601281092947">
+    <state width="1340" height="266" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601283297497" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601283297498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281092947" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601283297498" />
     <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1600075869533">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -308,6 +320,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
+    <state x="705" y="245" key="IDE.errors.dialog" timestamp="1601281468885">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="705" y="245" key="IDE.errors.dialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281468885" />
     <state x="589" y="278" key="MultipleFileMergeDialog" timestamp="1601278056055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -316,11 +332,11 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600155149946" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601278098149">
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601281462267">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1600249335455" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601278098149" />
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601281462267" />
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600244896085">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

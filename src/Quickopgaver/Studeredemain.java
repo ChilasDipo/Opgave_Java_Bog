@@ -4,29 +4,15 @@ import java.util.Scanner;
 
 public class Studeredemain {
     public static void main(String[] args) {
-        Studerende st1 = new Studerende();
-        st1.navn = "Lasse";
-        st1.alder = 22;
-        st1.by = "skuerløse";
-
-
-        Studerende st2 = new Studerende();
-        st2.navn = "Gustav";
-        st2.alder = 24;
-        st2.by = "skuerløse";
-
-
-        Studerende st3 = new Studerende();
-        st3.navn = "Andreas";
-        st3.alder = 23;
-        st3.by = "skuerløse";
-
-
+        Studerende st1 = new Studerende("Lasse",22,"Skuerløse");
+        Studerende st2 = new Studerende("Gustav", 24, "Haslev");
+        Studerende st3 = new Studerende("Andreas", 23,"Næstved");
         Studerende st4 = new Studerende();
         st4.navn = "someone";
         st4.alder = 22;
         st4.by = "skuerløse";
         System.out.println("Studerede oprettede");
+        System.out.println("-----------------------");
         Scanner input = new Scanner(System.in);
         System.out.println("Navn på den alder du ønsker at kende");
         String name = input.next();

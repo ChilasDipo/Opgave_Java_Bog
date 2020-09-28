@@ -12,5 +12,11 @@ public class Studerende {
         campus = "Næstved";
     }
 
+    public Studerende(String navn, int alder, String by) {
+        this.navn = navn;
+        this.alder = alder;
+        this.by = by;
+
+    }
 }
 
