@@ -1,3 +1,5 @@
+package Quickopgaver;
+
 import java.util.Scanner;
 
 public class Java_DataType {
