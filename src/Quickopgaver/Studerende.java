@@ -16,7 +16,12 @@ public class Studerende {
         this.navn = navn;
         this.alder = alder;
         this.by = by;
+    }
 
+    public Studerende(String navn, int alder) {
+        this.navn = navn;
+        this.alder = alder;
     }
 }
+
 

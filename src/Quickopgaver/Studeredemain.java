@@ -8,8 +8,7 @@ public class Studeredemain {
         Studerende st2 = new Studerende("Gustav", 24, "Haslev");
         Studerende st3 = new Studerende("Andreas", 23,"Næstved");
         Studerende st4 = new Studerende();
-        st4.navn = "someone";
-        st4.alder = 22;
+        Studerende st5 = new Studerende("Someone",45);
         st4.by = "skuerløse";
         System.out.println("Studerede oprettede");
         System.out.println("-----------------------");
@@ -18,7 +17,7 @@ public class Studeredemain {
         String name = input.next();
         switch (name){
             case "Lasse":
-                System.out.println(st1.navn + " alder er  " + st1.alder);
+                System.out.println(st1.navn+ " alder er  " + st1.alder);
                 break;
             case "Gustav":
                 System.out.println(st2.navn + " alder er  " + st2.alder);
