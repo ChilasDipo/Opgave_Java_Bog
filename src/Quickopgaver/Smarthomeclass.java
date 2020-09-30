@@ -5,10 +5,12 @@ public class Smarthomeclass {
     double temp ;
     double huminity;
     double visibility;
-    int openwindow;
+    boolean openwindow;
 
-
-    public Smarthomeclass(double visibility) {
+    public Smarthomeclass(double temp, double huminity, double visibility, boolean openwindow) {
+        this.temp = temp;
+        this.huminity = huminity;
         this.visibility = visibility;
+        this.openwindow = openwindow;
     }
 }
