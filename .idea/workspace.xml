@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="startede smarthome opgave">
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task9.java" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="halvdone stuff">
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task18UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Smarthomeclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Smarthomeclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Smarthomeclassmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Smarthomeclassmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kapitel_5/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_5/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <recent name="C:\Users\Chila\IdeaProjects\Opgave_Java_Bog\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task7">
+  <component name="RunManager" selected="Application.Task18UI">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kapitel_5.Task1" />
       <module name="Opgave_Java_Bog" />
@@ -85,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_5.Task1main" />
+    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_5.Task18" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_2.Task6" />
+    <configuration name="Task18UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_5.Task18UI" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_2.*" />
+          <option name="PATTERN" value="Kapitel_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,26 +135,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task18UI" />
+        <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task9" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Task1main" />
-        <item itemvalue="Application.Task6" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +173,8 @@
       <workItem from="1600326616701" duration="5882000" />
       <workItem from="1600418876734" duration="34000" />
       <workItem from="1601277573520" duration="11490000" />
-      <workItem from="1601457474727" duration="9396000" />
+      <workItem from="1601457474727" duration="9467000" />
+      <workItem from="1601537770956" duration="9891000" />
     </task>
     <task id="LOCAL-00001" summary="Begyndte opgave areal beregning af rektangel">
       <created>1600073724721</created>
@@ -263,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601313886885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="halvdone stuff">
+      <created>1601470841092</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601470841092</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +297,8 @@
     <MESSAGE value="Constructors" />
     <MESSAGE value="Færdigegjorde ting" />
     <MESSAGE value="startede smarthome opgave" />
-    <option name="LAST_COMMIT_MESSAGE" value="startede smarthome opgave" />
+    <MESSAGE value="halvdone stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="halvdone stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="185" key="#Notifications" timestamp="1600154623501">
@@ -320,42 +325,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1601470471578">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1601549637406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601470471578" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1601470471578">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601549637406" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1601549637406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601470471578" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1601470471578">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601549637406" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1601549637406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601470471578" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1601470471578">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601549637406" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1601549637406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600257582760" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601470471578" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1600075869533">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601549637406" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1601539920786">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1600075869533">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601539920786" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1601539920786">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1600075869533">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601539920786" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1601539920786">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1600075869533">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601539920786" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1601539920786">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601539920786" />
     <state x="705" y="245" key="IDE.errors.dialog" timestamp="1601281468885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -368,20 +377,21 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600155149946" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601314343545">
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601470842995">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1600249335455" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601314343545" />
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601470842995" />
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600244896085">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1600244896085" />
     <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600162145379" />
-    <state x="2375" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1601279598104">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1601538818425">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1600255902332" />
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601538818425" />
     <state x="2375" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601279598104" />
   </component>
 </project>
