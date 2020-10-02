@@ -1,15 +1,13 @@
 package Kapitel_5;
 
-import Quickopgaver.Smarthomeclass;
-
 import java.util.Scanner;
 
-public class Task18UI {
+public class Task17UI {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("");
+        System.out.println("Input antal af linjer");
         int n = input.nextInt();
-        Task18.funk(n);
+        Task17.funk(n);
     }
 }
 

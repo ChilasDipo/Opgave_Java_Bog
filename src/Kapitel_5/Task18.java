@@ -1,35 +1,46 @@
 package Kapitel_5;
 
 public class Task18 {
-    public static void funk(int n) {
-        int permn = n;
-        for (int i = 0; i < permn; i++) {
-            funktion(n);
-            System.out.println();
-            n--;
-        }
-    }
+    public static void main(String[] args) {
+        int[] array = new int[196];
+        int i, m = 0, flag = 0, k=0;
+       // int j = 3;//it is the number to be checked
 
-    public static void funktion(int n) {
-        int permn = n * 2 - 1;
-        int[] arr = new int[permn];
-        for (int i = 0; i < permn; i++) {
-
-            if (n == 1) {
-                arr[i] = n;
-                n++;
-            } else if (n > 1 && i < (permn / 2)) {
-                arr[i] = n;
-                n--;
+        for (int j = 0; j < 1201; j++) {
+            flag = 0;
+            m = j / 2;
+            if (j == 0 || j == 1) {
+                flag = 1;
             } else {
-                arr[i] = n;
-                n++;
+                for (i = 2; i <= m; i++) {
+                    if (j % i == 0) {
+                        flag = 1;
+                        break;
+                    }
+                }
+                if (flag == 0) {
+                    array[k] = j;
+                    k++;
+                }
             }
         }
-        for (int h = 0; h < permn; h++) {
-            System.out.print(arr[h] + "  ");
+        for (int j = 0; j < array.length ; j++) {
+            System.out.println(array[j] + "   " + j);
         }
+        printing(array);
     }
 
-
+    public static void printing(int[] array){
+        int tal = 0;
+        for (int i = 0; i < array.length ; i++) {
+            System.out.println();
+            for (int j = 0; j <10 ; j++) {
+                if (tal == 196){
+                    break;
+                }else
+                    System.out.print(array[tal] + " ");
+                tal++;
+            }
+        }
+    }
 }
