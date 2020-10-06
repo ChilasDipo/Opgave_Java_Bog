@@ -27,10 +27,10 @@ public class Mathfun {
 
 
 
-        for (int i = 0; i <101 ; i++) {
+       /* for (int i = 0; i <101 ; i++) {
             int rnd1 = rnd.Next(1,100);
             System.out.println(rnd1);
-        }
+        } */
 
     }
 }
