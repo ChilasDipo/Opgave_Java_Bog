@@ -19,15 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="lavede fail i test case runner">
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/Task17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/Task17UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/Task9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/Task9UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/TestSuiteForTask17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_4/TestsuiteforTast9.java" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven">
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/Task17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/Task17UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/TestSuiteforTask17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task34UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Mathfun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Mathfun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +71,13 @@
       <recent name="C:\Users\Chila\IdeaProjects\Opgave_Java_Bog\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSuiteForTask17">
-    <configuration name="Task17UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_4.Task17UI" />
+  <component name="RunManager" selected="Application.Task34">
+    <configuration name="Task17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_3.Task17" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_4.*" />
+          <option name="PATTERN" value="Kapitel_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_4.Task9" />
+    <configuration name="Task17UI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_3.Task17UI" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_4.*" />
+          <option name="PATTERN" value="Kapitel_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_4.Task9UI" />
+    <configuration name="Task34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_5.Task34" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_4.*" />
+          <option name="PATTERN" value="Kapitel_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsuiteforTast9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_4.TestsuiteforTast9" />
+    <configuration name="TestSuiteforTask17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kapitel_3.TestSuiteforTask17" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_4.*" />
+          <option name="PATTERN" value="Kapitel_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,24 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task34" />
+        <item itemvalue="Application.Task17UI (1)" />
+        <item itemvalue="Application.TestSuiteforTask17" />
+        <item itemvalue="Application.Task17" />
         <item itemvalue="Application.TestSuiteForTask17" />
-        <item itemvalue="Application.Task17UI" />
-        <item itemvalue="Application.TestsuiteforTast9" />
-        <item itemvalue="Application.Task9UI" />
-        <item itemvalue="Application.Task9" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +181,7 @@
       <workItem from="1601537770956" duration="9918000" />
       <workItem from="1601623231093" duration="4910000" />
       <workItem from="1601883811872" duration="3253000" />
+      <workItem from="1602230692734" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="Begyndte opgave areal beregning af rektangel">
       <created>1600073724721</created>
@@ -280,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601557108436</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven">
+      <created>1601978051326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601978051326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +320,8 @@
     <MESSAGE value="startede smarthome opgave" />
     <MESSAGE value="halvdone stuff" />
     <MESSAGE value="madde more stuff from book" />
-    <option name="LAST_COMMIT_MESSAGE" value="madde more stuff from book" />
+    <MESSAGE value="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="185" key="#Notifications" timestamp="1600154623501">
@@ -339,46 +348,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1340" height="293" key="GridCell.Tab.0.bottom" timestamp="1601973876662">
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom" timestamp="1602236565599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
-    <state width="1340" height="293" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601973876662" />
-    <state width="1340" height="293" key="GridCell.Tab.0.center" timestamp="1601973876662">
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center" timestamp="1602236565599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
-    <state width="1340" height="293" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601973876662" />
-    <state width="1340" height="293" key="GridCell.Tab.0.left" timestamp="1601973876662">
+    <state width="1340" height="328" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left" timestamp="1602236565599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
-    <state width="1340" height="293" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601973876662" />
-    <state width="1340" height="293" key="GridCell.Tab.0.right" timestamp="1601973876662">
+    <state width="1340" height="328" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right" timestamp="1602236565599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
-    <state width="1340" height="293" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601973876662" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1601625984703">
+    <state width="1340" height="328" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601625984703" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1601625984703">
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236569615" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601625984703" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1601625984703">
+    <state width="1340" height="328" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236569615" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601625984703" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1601625984703">
+    <state width="1340" height="328" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236569615" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1600075869533" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601625984703" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236569615" />
     <state x="705" y="245" key="IDE.errors.dialog" timestamp="1601281468885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -391,21 +400,42 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600155149946" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601557110548">
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601978054209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1600249335455" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601557110548" />
-    <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600244896085">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601978054209" />
+    <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602230698202">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1600244896085" />
-    <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600162145379" />
-    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1601627125659">
+    <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602230698202" />
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1602233577863">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1600255902332" />
-    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601627125659" />
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602233577863" />
     <state x="2375" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601279598104" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kapitel_5/Task34.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kapitel_5/Task34.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kapitel_5/Task34.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
