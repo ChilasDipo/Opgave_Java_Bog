@@ -1,5 +1,8 @@
 package Kapitel_2;
-
+//reeeeeeeeeeee - ravn
+//reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee you back
+// baka - Gustav
+//
 import java.util.Scanner;
 
 public class Task6 {
@@ -27,7 +30,7 @@ public class Task6 {
                 System.out.print(digit1 * digit2 * digit3);
                 System.exit(0);
             }
-        }else System.out.print("too smool or too big");
+        }else System.out.print("too smool or too GRANDE");
         System.exit(0);
 
 

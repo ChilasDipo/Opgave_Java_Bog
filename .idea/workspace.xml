@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven">
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/Task17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/Task17UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_3/TestSuiteforTask17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kapitel_5/Task34UI.java" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="Tilføjede Mathfun">
+      <change afterPath="$PROJECT_DIR$/src/BilOpgave/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kapitel_2/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_2/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +65,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="BilOpgave" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Chila\IdeaProjects\Opgave_Java_Bog\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task34">
+  <component name="RunManager" selected="Application.CarTest">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BilOpgave.CarTest" />
+      <module name="Opgave_Java_Bog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BilOpgave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kapitel_3.Task17" />
       <module name="Opgave_Java_Bog" />
@@ -111,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuiteForTask17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_4.TestSuiteForTask17" />
-      <module name="Opgave_Java_Bog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kapitel_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSuiteforTask17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kapitel_3.TestSuiteforTask17" />
       <module name="Opgave_Java_Bog" />
@@ -137,26 +141,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Task34" />
         <item itemvalue="Application.Task17UI (1)" />
         <item itemvalue="Application.TestSuiteforTask17" />
         <item itemvalue="Application.Task17" />
-        <item itemvalue="Application.TestSuiteForTask17" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +184,7 @@
       <workItem from="1601623231093" duration="4910000" />
       <workItem from="1601883811872" duration="3253000" />
       <workItem from="1602230692734" duration="5421000" />
+      <workItem from="1603092118902" duration="8348000" />
     </task>
     <task id="LOCAL-00001" summary="Begyndte opgave areal beregning af rektangel">
       <created>1600073724721</created>
@@ -328,14 +331,19 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="393" y="185" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1600154623501" />
-    <state x="930" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1601458441847">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="620" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1603098160583">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="620" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603098160583" />
     <state x="930" y="218" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601458441847" />
     <state x="668" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600280649799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="668" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600280649799" />
+    <state x="390" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603094070760">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="390" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1603094070760" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1601278094409">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -348,25 +356,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1340" height="328" key="GridCell.Tab.0.bottom" timestamp="1602236565599">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1603099307047">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
     <state width="1340" height="328" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1340" height="328" key="GridCell.Tab.0.center" timestamp="1602236565599">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1603099307047">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
     <state width="1340" height="328" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1340" height="328" key="GridCell.Tab.0.left" timestamp="1602236565599">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1603099307047">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
     <state width="1340" height="328" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1340" height="328" key="GridCell.Tab.0.right" timestamp="1602236565599">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1603099307047">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601884719272" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
     <state width="1340" height="328" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -396,10 +404,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="589" y="278" key="MultipleFileMergeDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601278056055" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600155149946">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1603092091481">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600155149946" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603092091481" />
     <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601978054209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
