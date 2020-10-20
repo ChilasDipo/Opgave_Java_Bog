@@ -1,37 +1,47 @@
 package BilOpgave;
 
 public class Car {
-    boolean caronoroff = false;
-     static int currentspeed = 0;
-     String password;
-
+    static boolean caronoroff = false;
+    static  int currentspeed = 0;
+     static String password;
+     static boolean handbrake;
      Car(){
          this.password = "password1234";
          this.currentspeed = 0;
          this.caronoroff = false;
+         this.handbrake = true;
      }
-    public double getCurrentspeed() {
-        return currentspeed;
+    public static double setspeed(double timeintsec , double acceration) {
+        return timeintsec * acceration ;
     }
-
-    public static double setspeed(int timeintsec , int accerationkmh) {
-        return timeintsec * (accerationkmh * 0.27777777777778);
-    }
-
     public static void setCurrentspeed(int currentspeed) {
-        Car.currentspeed = currentspeed;
+         if(currentspeed == 200 ){
+             System.out.println("Engine Burned too fast");
+             System.exit(0);
+         }else Car.currentspeed = currentspeed;
+        System.out.println(currentspeed + " m/s");
     }
-
-    //    car car = new car();
     String carkey = "password1234"  ;
-
-
-    public  void turncaron(CarKey key){
+    public static void turncaron(CarKey key){
         if (key.password.equals(password)) {
             System.out.println("key is correct");
             caronoroff = true;
+            System.out.println("Car is now on");
         } else System.out.println("key is incorrect");
-
+    }
+    public static void turncaroff(CarKey key){
+            caronoroff = false;
+        System.out.println("Car is now off");
+    }
+    public static void setHandbrake(boolean handbrakestate) {
+       if (handbrakestate == true )  {
+           Car.handbrake = handbrakestate;
+           Car.currentspeed = 0;
+           System.out.println("handbrake is pulled and car is stopped");
+       } else {
+           Car.handbrake = handbrakestate;
+        System.out.println("handbrake is no pulled");
+       }
 
     }
 

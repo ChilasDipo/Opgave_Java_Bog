@@ -14,6 +14,7 @@ public class Task34 {
         while(won==false) {
             System.out.print("scissor (0), rock (1), paper (2):  ");
             int choice = input.nextInt();
+          // int choice = 2;
             String winner = Task17.gameRPS(choice);
             System.out.println(Task17.gameRPS(choice));
 
@@ -33,7 +34,5 @@ public class Task34 {
             }
         }
         System.out.println("game stoped");
-
-
     }
 }

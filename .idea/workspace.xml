@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="Tilføjede Mathfun">
-      <change afterPath="$PROJECT_DIR$/src/BilOpgave/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilOpgave/CarUI.java" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="lavede opgaverne 3.17 og 5.34">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kapitel_2/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_2/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quickopgaver/Studerende.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BilOpgave/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BilOpgave/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BilOpgave/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BilOpgave/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kapitel_5/Task34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_5/Task34.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="C:\Users\Chila\IdeaProjects\Opgave_Java_Bog\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarTest">
+  <component name="RunManager" selected="Application.CarUI">
     <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BilOpgave.CarTest" />
       <module name="Opgave_Java_Bog" />
@@ -89,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kapitel_3.Task17" />
+    <configuration name="CarUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BilOpgave.CarUI" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kapitel_3.*" />
+          <option name="PATTERN" value="BilOpgave.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarUI" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Task34" />
         <item itemvalue="Application.Task17UI (1)" />
         <item itemvalue="Application.TestSuiteforTask17" />
-        <item itemvalue="Application.Task17" />
       </list>
     </recent_temporary>
   </component>
@@ -356,26 +353,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1603099307047">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom" timestamp="1603200680008">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
-    <state width="1340" height="328" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1603099307047">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603200680008" />
+    <state width="1340" height="324" key="GridCell.Tab.0.center" timestamp="1603200680008">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
-    <state width="1340" height="328" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1603099307047">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1340" height="324" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603200680008" />
+    <state width="1340" height="324" key="GridCell.Tab.0.left" timestamp="1603200680008">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
-    <state width="1340" height="328" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1603099307047">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1340" height="324" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603200680008" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right" timestamp="1603200680008">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603099307047" />
-    <state width="1340" height="328" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602236565599" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603200680008" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -418,11 +415,11 @@
     </state>
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1600244896085" />
     <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602230698202" />
-    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1602233577863">
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup" timestamp="1603178625182">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1600255902332" />
-    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602233577863" />
+    <state x="455" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603178625182" />
     <state x="2375" y="62" width="1008" height="1017" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601279598104" />
   </component>
   <component name="XDebuggerManager">
