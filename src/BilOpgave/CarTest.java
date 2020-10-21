@@ -21,6 +21,7 @@ public class CarTest {
             accelerate3halvkm8sec();
             car.setHandbrake(true);
             handbrake();
+            //testenum();
         }
         public static void driving() {
             Car car = new Car();
@@ -61,4 +62,7 @@ public class CarTest {
             System.out.println("handbrake pass");
         } else System.out.println("handbrake fail");
     }
+   // public static void testenum(){
+  //      System.out.println(caronoroff.OFF);
+  //  }
 }
