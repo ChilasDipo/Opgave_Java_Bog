@@ -1,14 +1,21 @@
 package Kapitel_4;
 
-public class TestSuiteForTask17 {
+import Kapitel_2.Test;
+import zunit.TestSuite;
+
+public class TestSuiteForTask17 extends zunit.TestSuite {
+    @Override
+    public void testMetodList() {
+        passingtest();
+    }
     public static void main(String[] args) {
-        correctstringjan01( Task17.mounthandday(2001,"Jan"));
+      /*  correctstringjan01( Task17.mounthandday(2001,"Jan"));
         correctstringjan16(Task17.mounthandday(2001,"jan"));
         correctstringfeb08(Task17.mounthandday(2008,"Feb"));
-        correctstringfeb08(Task17.mounthandday(2008,"feb"));
+        correctstringfeb08(Task17.mounthandday(2008,"feb"));*/
+        TestSuiteForTask17 test = new TestSuiteForTask17();
+        test.runTestSuite();
     }
-
-
     public static void correctstringjan01(String mountandday) {
         if (mountandday.equals("Jan 2001 has 31 days")) {
             System.out.println("Pass Jan 2001");
@@ -25,4 +32,9 @@ public class TestSuiteForTask17 {
             System.out.println("Pass wrong name");
         } else System.out.println("fail wrong name");
     }
+    public void passingtest() {
+assertEquals(Task17.mounthandday(2001,"Jan"),"Jan 2001 has 31 days");
+    }
+
+
 }
