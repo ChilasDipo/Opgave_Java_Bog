@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="TRIED TO do ENUM">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/zunit.xml" afterDir="false" />
+    <list default="true" id="dbdca380-233b-4e70-9e1c-cc25502f8c4f" name="Default Changelist" comment="addede zUnit til en opgfave for at see om det virker yes">
+      <change afterPath="$PROJECT_DIR$/src/Quickopgaver/ArrayTrainging/AtomBomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quickopgaver/ArrayTrainging/Control.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Opgave_Java_Bog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Opgave_Java_Bog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kapitel_4/TestSuiteForTask17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_4/TestSuiteForTask17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kapitel_4/TestsuiteforTast9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kapitel_4/TestsuiteforTast9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +56,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -77,7 +81,7 @@
       <recent name="C:\Users\Chila\IdeaProjects\Opgave_Java_Bog\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSuiteForTask17">
+  <component name="RunManager" selected="Application.Control">
     <configuration name="CarEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BilOpgave.Enum.CarEnum" />
       <module name="Opgave_Java_Bog" />
@@ -104,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BilOpgave.CarUI" />
+    <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quickopgaver.ArrayTrainging.Control" />
       <module name="Opgave_Java_Bog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BilOpgave.Car" />
+          <option name="PATTERN" value="Quickopgaver.ArrayTrainging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,26 +147,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Control" />
         <item itemvalue="Application.TestSuiteForTask17" />
         <item itemvalue="Application.CarEnum" />
         <item itemvalue="Application.ENUMTEST" />
         <item itemvalue="Application.CarTest" />
-        <item itemvalue="Application.CarUI" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +191,7 @@
       <workItem from="1601883811872" duration="3253000" />
       <workItem from="1602230692734" duration="5421000" />
       <workItem from="1603092118902" duration="8348000" />
+      <workItem from="1603438910554" duration="3532000" />
     </task>
     <task id="LOCAL-00001" summary="Begyndte opgave areal beregning af rektangel">
       <created>1600073724721</created>
@@ -302,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603201015041</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="addede zUnit til en opgfave for at see om det virker yes">
+      <created>1603369380065</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603369380065</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +346,8 @@
     <MESSAGE value="madde more stuff from book" />
     <MESSAGE value="Lavede opgave 9 og 17 i kapitel 4, med et forsøg på at lave testcase før opgaven" />
     <MESSAGE value="fortsatte bilopgave" />
-    <option name="LAST_COMMIT_MESSAGE" value="fortsatte bilopgave" />
+    <MESSAGE value="addede zUnit til en opgfave for at see om det virker yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="addede zUnit til en opgfave for at see om det virker yes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="185" key="#Notifications" timestamp="1600154623501">
@@ -381,26 +392,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="65" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1600069911452" />
-    <state width="1340" height="324" key="GridCell.Tab.0.bottom" timestamp="1603368732646">
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom" timestamp="1603439724511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603282258027" />
-    <state width="1340" height="324" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603368732646" />
-    <state width="1340" height="324" key="GridCell.Tab.0.center" timestamp="1603368732646">
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603439724511" />
+    <state width="1340" height="324" key="GridCell.Tab.0.center" timestamp="1603439724511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603282258027" />
-    <state width="1340" height="324" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603368732646" />
-    <state width="1340" height="324" key="GridCell.Tab.0.left" timestamp="1603368732646">
+    <state width="1340" height="324" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603439724511" />
+    <state width="1340" height="324" key="GridCell.Tab.0.left" timestamp="1603439724511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603282258027" />
-    <state width="1340" height="324" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603368732646" />
-    <state width="1340" height="324" key="GridCell.Tab.0.right" timestamp="1603368732646">
+    <state width="1340" height="324" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603439724511" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right" timestamp="1603439724511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603282258027" />
-    <state width="1340" height="324" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603368732646" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603439724511" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1602236569615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -433,11 +444,15 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603092091481" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1603201018117">
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2" timestamp="1603369385487">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1600249335455" />
-    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603201018117" />
+    <state x="350" y="140" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603369385487" />
+    <state x="720" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603369810624">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="720" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603369810624" />
     <state x="687" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602230698202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

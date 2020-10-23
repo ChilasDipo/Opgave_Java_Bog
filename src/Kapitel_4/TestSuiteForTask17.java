@@ -1,9 +1,10 @@
 package Kapitel_4;
 
 import Kapitel_2.Test;
+
 import zunit.TestSuite;
 
-public class TestSuiteForTask17 extends zunit.TestSuite {
+public class TestSuiteForTask17 extends TestSuite {
     @Override
     public void testMetodList() {
         passingtest();
