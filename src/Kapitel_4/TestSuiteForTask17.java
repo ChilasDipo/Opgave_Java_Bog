@@ -1,5 +1,5 @@
 package Kapitel_4;
-
+/*
 import Kapitel_2.Test;
 
 import zunit.TestSuite;
@@ -14,7 +14,7 @@ public class TestSuiteForTask17 extends TestSuite {
         correctstringjan16(Task17.mounthandday(2001,"jan"));
         correctstringfeb08(Task17.mounthandday(2008,"Feb"));
         correctstringfeb08(Task17.mounthandday(2008,"feb"));*/
-        TestSuiteForTask17 test = new TestSuiteForTask17();
+       /* TestSuiteForTask17 test = new TestSuiteForTask17();
         test.runTestSuite();
     }
     public static void correctstringjan01(String mountandday) {
@@ -39,3 +39,4 @@ assertEquals(Task17.mounthandday(2001,"Jan"),"Jan 2001 has 31 days");
 
 
 }
+*/
